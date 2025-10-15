@@ -88,6 +88,8 @@ function update_hbn_ovn_manifests() {
             "<OVN_KUBERNETES_IMAGE_TAG>" "${OVN_KUBERNETES_IMAGE_TAG}" \
             "<OVN_KUBERNETES_UTILS_IMAGE_REPO>" "${OVN_KUBERNETES_UTILS_IMAGE_REPO}" \
             "<OVN_KUBERNETES_UTILS_IMAGE_TAG>" "${OVN_KUBERNETES_UTILS_IMAGE_TAG}" \
+            "<OVN_TEMPLATE_CHART_URL>" "${OVN_TEMPLATE_CHART_URL}" \
+            "<OVN_CHART_VERSION>" "${OVN_CHART_VERSION}" \
             "<OVN_CHART_URL>" "${OVN_CHART_URL}"
     fi
 
